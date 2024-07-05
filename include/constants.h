@@ -19,22 +19,22 @@ static const int iterations = 30000;
 static const double bloating = 0; 
 
 /// [m] --- The width of the vehicle
-static const double width = 0.18 + 2 * bloating;//车的宽度
+static const double width = 0.39 + 2 * bloating;//车的宽度
 
 /// [m] --- The length of the vehicle
-static const double length = 0.22 + 2 * bloating;//车的长度
+static const double length = 0.56 + 2 * bloating;//车的长度
 
 /*
 * 车模需要转弯半径为0.75米的
 * 车身长度需要0.15m(长) * 0.16m(轮宽)
 */
 /// [m] --- the Minimum turning radius 车辆最小转弯半径 
-static const double r = 1;
+static const double r = 0.35;
 
 /// [m] --- The number of discretizations in heading
 /// 车体朝向的离散数量
 // static const int headings = 72;
-static const int headings = 72;
+static const int headings = 144;
 // const float dy[] = { 0,        -0.0415893,  0.0415893};
 // const float dx[] = { 0.7068582,   0.705224,   0.705224};
 // const float dt[] = { 0,         0.1178097,   -0.1178097};
